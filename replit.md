@@ -93,7 +93,9 @@ This is a React/Express web application that simulates realistic iPhone incoming
 ## Changelog
 
 Changelog:
-- June 24, 2025. Initial setup
+- June 24, 2025. Initial setup - Created FakeiPhoneCalls.com with realistic iPhone call simulator
+- June 24, 2025. Completed full-featured call simulator with setup, incoming call, and active call screens
+- June 24, 2025. Ready for deployment on Replit with live demo link
 
 ## User Preferences
 
