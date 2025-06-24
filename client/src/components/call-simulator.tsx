@@ -17,6 +17,7 @@ import {
   Wifi,
   Battery,
 } from "lucide-react";
+import ringtone from "/assets/iphone_call.mp3";
 
 type CallState = "setup" | "incoming" | "active";
 
@@ -228,7 +229,7 @@ export default function CallSimulator() {
   if (callState === "incoming") {
     return (
       <div className="fixed inset-0 bg-ios-call-bg text-white z-50 slide-up active">
-        <audio ref={audioRef} src="/assets/iphone_call.mp3" loop controls />
+        <audio ref={audioRef} src={ringtone} loop controls />
         {/* Status Bar */}
         <div className="flex justify-between items-center px-6 pt-12 pb-4 text-white">
           <span className="text-sm font-medium">Verizon</span>
