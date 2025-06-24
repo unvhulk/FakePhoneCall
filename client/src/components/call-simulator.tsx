@@ -18,7 +18,7 @@ import {
   Battery,
 } from "lucide-react";
 // import ringtone from "/assets/iphone_call.mp3";
-import ringtone from "/iphone_call.mp3";
+import ringtone from "../../assets/iphone_call.mp3";
 
 type CallState = "setup" | "incoming" | "active";
 
